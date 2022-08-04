@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JAYCEE CV</title>
+        <!--css files-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--bootstrap icon-->
+        <link rel="stylesheet" href="font/bootstrap-icons.css">
+        <style>
+            #side {
+              background-color: #1515ff;
+              margin-right: 65px;
+            }
+
+            #zero{
+              background-image: url('images/caro3.jpeg');
+              width: 400%;
+              height: 400px;
+              background-size: 50%;
+              background-repeat: no-repeat;
+            }
+
+            .sub{
+              background-color: transparent;
+              color: #1515ff;
+              border-color: #1515ff;
+              padding: 10px 10px;
+            }
+
+            .bi.joy{
+              display: inline-block;
+              padding: 3px 5px;
+              background-color: antiquewhite;
+              font-size: 20px;
+              border-radius: 50%;
+              
+            }
+
+            h6{
+              color: antiquewhite;
+              margin-top: 10px;
+            }
+
+            .nav-link{
+              font-size: 50px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+      <!--nav bar starts here-->
+      <div class="bar">
+          <nav class="navbar navbar-expand-sm navbar-dark sticky-top" aria-label="Third navbar example" style="width:100px;
+                 height: 1000px; display: block; float: left; " >
+            <div class="container-fluid" id="side">
+             
+              <div class="collapse navbar-collapse" id="navbarsExample03" >
+                  <ul class="navbar-nav me-auto mb-2 mb-sm-0" style=" width: 30px; display:block; justify-content: center;
+                     justify-items: center; margin-top: 100px;"> <img src="images/caro.jpg" class="rounded-circle" width="100" height="100">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house-door-fill"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about_me.html" title="About"><i class="bi bi-person-circle"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html" title="Portfolio"><i class="bi bi-archive-fill"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="services.html" title="Services"><i class="bi bi-list"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="reference.html" title="Reference"><i class="bi bi-people-fill"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html" title="Contact"><i class="bi bi-person-lines-fill"></i></a>
+                      </li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+       <!--contact section--> 
+      <div class="header">
+        <h4>Contact Me</h4>
+        <p>GET IN TOUCH<br>_________</p>
+      </div>
+
+      <div class="container" id="zero">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="zero-text">
+              <h6 style="color: white; font-size: larger;">Contact Information</h6>
+              <ul style="list-style:none;">
+                <li><a href="tel:+2348123852352"><i class="bi bi-telephone joy"></i></a></li>
+                    <h6>Phone:<br>+2348123852352</h6>
+                <li><a href="mailto:+onagachinaza@gmail.com"><i class="bi bi-envelope-fill joy"></i></a>
+                  <h6>Email:<br>onagachinaza@gmail.com</h6></li>
+                <li><a href="https://mobile.twitter.com/Jaycee77412267"><i class="bi bi-twitter joy"></i></a><h6>https://mobile.twitter.com/Jaycee77412267</h6></li>
+                <li><a href="http://www.facebook.com/naza.barth"><i class="bi bi-facebook joy"></i></a>
+                    <h6>http://www.facebook.com/naza.barth</h6></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <h4 style="color: #1515ff; font-weight: bold;">Send Message</h4>
+             <form>
+               <div class="container border-4 rounded-3 mt-3">
+                  <form action="/action_page.php">
+                    <div class="mb-3 mt-3">
+                          <label for="email" class="form-label">Email:</label>
+                          <input type="email" class="form-control form-control-lg" id="email" placeholder="Input email" name="email">
+                    </div>
+                    <div class="mb-3">
+                          <label for="fname" class="form-label">Name</label>
+                          <input type="name" class="form-control form-control-lg" id="fname" name="name">
+                    </div>
+                    <div class="form-check mb-3">
+                          <label for="form-check-label">
+                          <input class="form-check-input" type="checkbox" name="remember">Remember Me</label>
+                    </div>
+                      <label for="comment">Subject</label>
+                      <textarea class="form-control" rows="5" id="comment" placeholder="Message" name="text"></textarea>
+                  </form> 
+                  <br>
+                  <br>
+                  <button type="submit" class="sub">SEND MESSAGE</button>
+                </div>
+          </div>
+        </div>
+      </div>
+          <!--js file-->
+ <script src="js/bootstrap.bundle.js"></script>
+        
+    </body>
+</html>
